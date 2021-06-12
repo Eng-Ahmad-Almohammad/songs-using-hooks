@@ -25,9 +25,9 @@ const App = () => {
                 <div className = 'column eight wide'>
                 <SongsList updateState = {updateState} listOfSongs = {listOfSongs} />
                 </div>
-            </div>
-            <div className = 'floated right content'>
+            <div className = 'column eight wide'>
                 <SongDetails song = {selectedSong} />
+            </div>
             </div>
         </div>
     )

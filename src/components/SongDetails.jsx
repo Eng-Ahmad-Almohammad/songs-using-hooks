@@ -4,15 +4,15 @@ const SongDetails = (props) =>{
     
     return(
         <div>
-            <h1>
+            <h3>
                 Detalis For :
-            </h1>
-            <h2>
+            </h3>
+            <p>
                 Title : {props.song.title}
-            </h2>
-            <h2>
+                <br />
                 Length: {props.song.duration}
-            </h2>
+            </p>
+           
         </div>
     )
 }
